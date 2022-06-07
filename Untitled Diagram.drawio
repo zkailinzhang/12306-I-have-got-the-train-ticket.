@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T07:42:32.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="IHE1XbYEJXkQrOb5Q8Wo" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T07:52:00.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="9sONLmVJ5COLSmJPyWXY" version="19.0.1" type="github">
   <diagram id="kIHqwGlhqWqu5CDYIjrJ" name="Page-1">
     <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-24" target="W8ZKWBWc_BNwUwVjPCND-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1589" y="1680" width="542" height="90" as="geometry" />
+          <mxGeometry x="-1606" y="1680" width="542" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nO3CZiCc7D_mRMo5f33q-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="290" width="150" height="110" as="geometry" />
@@ -716,41 +719,53 @@
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-8" target="W8ZKWBWc_BNwUwVjPCND-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W8ZKWBWc_BNwUwVjPCND-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-8" target="W8ZKWBWc_BNwUwVjPCND-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-8" value="鱼眼矫畸变图&amp;amp;环视拼接融合图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1390" y="1600" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-10" value="可通行区域检测FS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1556.5" y="1707" width="130" height="40" as="geometry" />
+          <mxGeometry x="-1556.5" y="1707" width="116.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-21" value="车位检测PSD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1426.5" y="1707" width="110" height="40" as="geometry" />
+          <mxGeometry x="-1440" y="1707" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="W8ZKWBWc_BNwUwVjPCND-22" value="视觉感知目标检测3dOD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1206.5" y="1707" width="132" height="40" as="geometry" />
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-22" value="感知环视目标检测3dOD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="1707" width="132" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-23" value="地面标识检测RMD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1316.5" y="1707" width="110" height="40" as="geometry" />
+          <mxGeometry x="-1330" y="1707" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-25" value="感知模型推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1606" y="1680" width="82" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W8ZKWBWc_BNwUwVjPCND-32" value="多尺度金字塔稠密反向光流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1256" y="1595" width="201" height="50" as="geometry" />
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-32" target="W8ZKWBWc_BNwUwVjPCND-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W8ZKWBWc_BNwUwVjPCND-48" value="VO当前帧点选取：自车坐标系下数量点20-30，要求均匀分布自车周边，包括自车坐标系下的库位近车点P0和P1；地面车道线和引导箭头，减速带以及路沿等的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1433.5" y="1810" width="283.5" height="70" as="geometry" />
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-32" value="多尺度金字塔稠密反向光流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1447.5" y="1800" width="225" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-48" target="W8ZKWBWc_BNwUwVjPCND-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-48" value="VO当前帧点选取：自车坐标系下数量点20-30，要求均匀分布自车周边，包括自车坐标系下的库位近车点P0和P1；地面车道线和引导箭头，减速带以及路沿等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1476.75" y="1870" width="286.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-49" target="W8ZKWBWc_BNwUwVjPCND-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-49" value="VO前一帧点选取：取VO当前点下的反向光流作用叠加到当前点，即历史点的位置方向，再坐标变换到车身坐标系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1430.5" y="1900" width="280.5" height="60" as="geometry" />
+          <mxGeometry x="-1473.75" y="1980" width="280.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-50" target="W8ZKWBWc_BNwUwVjPCND-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-50" value="基于RANSAC的仿射变换视觉里程计结果计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1430.5" y="1990" width="230" height="60" as="geometry" />
+          <mxGeometry x="-1447.5" y="2080" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W8ZKWBWc_BNwUwVjPCND-51" value="解析前一帧的平移量和旋转量，里程计位置和朝向迭代更新" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1427.5" y="2080" width="227" height="60" as="geometry" />
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-51" value="解析前一帧的平移量和旋转量，平移向量旋转负角度下的，使统一到全局坐标下，即第一帧图像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1447.5" y="2180" width="227" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-57" value="全局坐标系下的视觉里程计位置和朝向增量更新和迭代" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1449.5" y="2270" width="227" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
