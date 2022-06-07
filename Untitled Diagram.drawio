@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T07:54:16.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="OmChyOJt2g3EHfmCidL9" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T09:16:02.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.53" etag="nT4O6IZ_vwhY9H6ePcsC" version="19.0.1" type="github">
   <diagram id="kIHqwGlhqWqu5CDYIjrJ" name="Page-1">
-    <mxGraphModel dx="3076" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2839" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -740,7 +740,7 @@
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-32" target="W8ZKWBWc_BNwUwVjPCND-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W8ZKWBWc_BNwUwVjPCND-32" value="多尺度金字塔稠密反向光流模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-32" value="多尺度金字塔全局性的稠密反向光流模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1447.5" y="1800" width="225" height="45" as="geometry" />
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-48" target="W8ZKWBWc_BNwUwVjPCND-49">
@@ -766,6 +766,51 @@
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-57" value="全局坐标系下的视觉里程计位置和朝向增量更新和迭代" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1449.5" y="2270" width="227" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-59" target="W8ZKWBWc_BNwUwVjPCND-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-59" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-727.5" y="1450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-61" target="W8ZKWBWc_BNwUwVjPCND-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-61" value="相机视频采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-735" y="1530" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-62" target="W8ZKWBWc_BNwUwVjPCND-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-62" value="获取当前帧和前一帧" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-727.5" y="1600" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-63" target="W8ZKWBWc_BNwUwVjPCND-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-63" value="构建高斯金字塔网络" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-732.5" y="1687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-65" target="W8ZKWBWc_BNwUwVjPCND-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-65" value="逐次对每层网络图像进行基于二次多项式近似逼近，灰度值和位置关系式建模" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-732.5" y="1785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-67" target="W8ZKWBWc_BNwUwVjPCND-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-67" value="空间转换，图像二维空间以()为基函数的空间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-732.5" y="1880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="W8ZKWBWc_BNwUwVjPCND-69" target="W8ZKWBWc_BNwUwVjPCND-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-69" value="以7pixel为邻域单元，以高斯分布为邻域权重，最小二乘拟合得到中心点的6维系数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-732.5" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-71" value="&lt;span style=&quot;&quot;&gt;金字塔遍历，得到图像光流运动场&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-732.5" y="2090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
