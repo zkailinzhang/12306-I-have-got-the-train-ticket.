@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T10:03:19.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="0LbgzXZwSc_KSabzNIS8" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-20T10:04:16.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="JwEc631uS3IQLoA9ulao" version="20.0.1" type="github">
   <diagram id="kIHqwGlhqWqu5CDYIjrJ" name="Page-1">
-    <mxGraphModel dx="2974" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3483" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -806,7 +806,7 @@
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="W8ZKWBWc_BNwUwVjPCND-67" target="W8ZKWBWc_BNwUwVjPCND-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W8ZKWBWc_BNwUwVjPCND-67" value="空间转换，图像二维空间以(1,x,y,xy,x&lt;sup&gt;2&lt;/sup&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;,y&lt;sup&gt;2&lt;/sup&gt;&lt;/span&gt;)为基函数的空间" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="W8ZKWBWc_BNwUwVjPCND-67" value="空间转换，图像二维空间以(1,x,y,x&lt;sup&gt;2&lt;/sup&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;,y&lt;/span&gt;&lt;sup style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2&lt;/span&gt;&lt;/sup&gt;,xy)为基函数的空间" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-733.76" y="1855" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W8ZKWBWc_BNwUwVjPCND-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="W8ZKWBWc_BNwUwVjPCND-69" target="W8ZKWBWc_BNwUwVjPCND-71" edge="1">
